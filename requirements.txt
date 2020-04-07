@@ -1,0 +1,16 @@
+numpy
+pandas
+sklearn
+TA-Lib
+scikit-optimize
+joblib
+mongoengine
+dnspython
+sqlalchemy
+pymysql
+boto3
+flask
+pyopenssl
+awscli
+flask_mongoengine
+flask-admin
