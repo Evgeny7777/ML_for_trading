@@ -11,7 +11,7 @@
 
 ## Main idea
 
-This is a software that handles next scenarions
+This is a software that handles the next scenarios
 
 - Download and preprocess historical data for stock markets
 - Create Machine learning model for prediction future price movement
