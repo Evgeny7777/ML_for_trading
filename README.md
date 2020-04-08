@@ -24,13 +24,13 @@ All together this solution covers end-to-end process.
 
 ## Installation
 
-so far there is no pip package published so that the main way to start using the library is to clone this repo
+So far there is no pip package published so the only way now is to clone this repo
 
-In order to launch optimization jobs you would need:
+In order to launch optimization jobs you would need to 
 
 ### Prepare data
 
-- download orderlog from [here](ftp-от-zerich)
+- download `orderlog` files for needed tickers from [here](ftp-от-zerich)
 - convert it from `qsh` to `bin` format via [this tool](format-conversion)
 
 ### Store data
@@ -39,7 +39,7 @@ Either local filesystem (fast, not scalable) or S3 storage
 
 ### Place to store experiments and results
 
-Create a Mongo instance and to add credentials to `./py/config.py'. [Some hosting options with free tiers](db)
+Create a Mongo instance and to add credentials to `./py/config.py`. [Some hosting options with free tiers](db)
 
 ## Structure of the repo
 
